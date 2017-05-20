@@ -3,7 +3,7 @@
   require_once('../header.php');
   require_once('flag.php');
 
-  if ($_GET["password"]=="9527"){
+  if ($_GET["password"]==""){
 
     echo '<p>flag is ' . $flag . '</p>';
   };
